@@ -1,7 +1,7 @@
 enum Themes {
-    Halloween = 0,
-    Christmas = 1 << 0,
-    Birthday = 1 << 1,
+    Halloween = 1 << 0,
+    Christmas = 1 << 1,
+    Birthday = 1 << 2,
 }
 
 export default Themes;

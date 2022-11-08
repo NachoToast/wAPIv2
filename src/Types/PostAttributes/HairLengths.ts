@@ -1,11 +1,11 @@
 enum HairLengths {
-    Bald = 0,
+    Bald = 1 << 0,
 
     /** Down to chin. */
-    Short = 1 << 0,
+    Short = 1 << 1,
 
     /** Past the chin. */
-    Long = 1 << 1,
+    Long = 1 << 2,
 }
 
 export default HairLengths;
