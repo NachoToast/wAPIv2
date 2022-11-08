@@ -1,11 +1,15 @@
-import { ArtStyle, LightLevel, ShotType } from './PostAttributes';
-import Colours from './PostAttributes/Colours';
-import ExplicitLevel from './PostAttributes/ExplicitLevel';
-import HairLengths from './PostAttributes/HairLengths';
-import Outfits from './PostAttributes/Outfits';
-import Races from './PostAttributes/Races';
-import Source from './PostAttributes/Source';
-import Themes from './PostAttributes/Themes';
+import {
+    ArtStyle,
+    Colours,
+    ExplicitLevel,
+    HairLengths,
+    LightLevel,
+    Outfits,
+    Races,
+    ShotType,
+    Source,
+    Themes,
+} from './PostAttributes';
 
 /** A post represents data about a single image. */
 export default interface Post {
