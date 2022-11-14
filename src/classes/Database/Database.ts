@@ -51,7 +51,7 @@ export default class Database<T> {
         return existsSync(join(this._filePath, `${encodeURIComponent(id)}.json`));
     }
 
-    /** Removes an entry from the database, will error if entry does not exist. */
+    /** Removes an entry from the database, will return false if entry does not exist. */
     public delete(id: string): boolean {
         try {
             rmSync(join(this._filePath, `${encodeURIComponent(id)}.json`));
